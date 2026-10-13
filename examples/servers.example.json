@@ -1,0 +1,28 @@
+{
+  "servers": [
+    {
+      "host": "10.100.2.1",
+      "id": "2addadca",
+      "name": "node1",
+      "password": "changeme",
+      "tags": [],
+      "username": "root"
+    },
+    {
+      "host": "10.100.2.2",
+      "id": "2addadcb",
+      "name": "node2",
+      "password": "changeme",
+      "tags": [],
+      "username": "root"
+    },
+    {
+      "host": "10.100.2.3",
+      "id": "2addadcc",
+      "name": "node3",
+      "password": "changeme",
+      "tags": [],
+      "username": "root"
+    }
+  ]
+}

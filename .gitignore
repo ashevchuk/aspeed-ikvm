@@ -1,0 +1,7 @@
+build/
+build-aarch64/
+.cache/
+data/
+*.tar.gz
+.notes/
+third_party/aarch64-sysroot/

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>srvman</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>srvman</h1>
+    <button id="add-server-btn">+ Add server</button>
+  </header>
+
+  <main>
+    <section id="server-list"></section>
+    <section id="server-detail" hidden></section>
+  </main>
+
+  <dialog id="server-form-dialog">
+    <form id="server-form" method="dialog">
+      <h2 id="server-form-title">Add server</h2>
+      <label>Name <input name="name" required></label>
+      <label>Host / IP <input name="host" required></label>
+      <label>BMC username <input name="username"></label>
+      <label>BMC password <input name="password" type="password"></label>
+      <label>Tags (comma separated) <input name="tags"></label>
+      <div class="dialog-actions">
+        <button type="button" id="server-form-cancel">Cancel</button>
+        <button type="submit">Save</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="/app.js"></script>
+</body>
+</html>
