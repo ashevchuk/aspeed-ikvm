@@ -14,7 +14,7 @@ client.
 
 **Live KVM console — keyboard and mouse redirected straight from the browser**
 
-![Console](docs/screenshots/console.jpg)
+![Console](docs/screenshots/console.png)
 
 **Sensors — temperatures, voltages, fans, pulled over IPMI**
 
